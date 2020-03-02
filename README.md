@@ -24,4 +24,30 @@ npm run unit
 npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 项目进化史
+
+- 搭建项目环境, 创建develop分支
+
+```
+vue init webpack vueShop
+
+git checkout -b develop
+
+autoOpenBrowser: true 			npm run dev 之后唤起浏览器
+```
+
+- 项目的目录结构
+
+```
+api
+common
+components
+fiters
+mock
+pages
+router
+store
+App.vue
+main.js
+```
+
