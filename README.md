@@ -26,7 +26,7 @@ npm test
 
 ## 项目进化史
 
-- 搭建项目环境, 创建develop分支
+#### 搭建项目环境, 创建develop分支
 
 ```
 vue init webpack vueShop
@@ -36,7 +36,7 @@ git checkout -b develop
 autoOpenBrowser: true 			npm run dev 之后唤起浏览器
 ```
 
-- 项目的目录结构
+#### 项目的目录结构
 
 ```
 api
@@ -51,3 +51,6 @@ App.vue
 main.js
 ```
 
+#### 安装stylus依赖包
+
+``npm install stylus-loader --save-dev``
