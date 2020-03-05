@@ -54,3 +54,16 @@ main.js
 #### 安装stylus依赖包
 
 ``npm install stylus-loader --save-dev``
+
+#### 使用vscode配置vue常用的模板
+
+- 安装VueHelper插件
+
+- 寻找 `vue.json`
+
+  按顺序点击vscode的：
+
+  - 文件
+  - 首选项
+  - 用户代码片段
+  - 接着搜索框中输入 `vue`， 回车
