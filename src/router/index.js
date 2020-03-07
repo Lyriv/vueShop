@@ -4,6 +4,7 @@ import Msite from '../pages/Msite/Msite.vue'
 import Order from '../pages/Order/Order.vue'
 import Profile from '../pages/Profile/Profile.vue'
 import Search from '../pages/Search/Search.vue'
+import Login from '../pages/Login/Login.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -14,19 +15,27 @@ export default new Router({
     },
     {
       path: '/msite',
-      component: Msite
+      component: Msite,
+      meta: { showFooter: true }
     },
     {
       path: '/order',
-      component: Order
+      component: Order,
+      meta: { showFooter: true }
     },
     {
-      path: '/propile',
-      component: Profile
+      path: '/profile',
+      component: Profile,
+      meta: { showFooter: true }
     },
     {
       path: '/search',
-      component: Search
+      component: Search,
+      meta: { showFooter: true }
+    },
+    {
+      path: '/login',
+      component: Login
     }
   ]
 })
